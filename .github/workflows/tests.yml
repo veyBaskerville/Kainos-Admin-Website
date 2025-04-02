@@ -52,5 +52,3 @@ jobs:
 
       - name: Run Tests
         run: ./vendor/bin/pest
-        env:
-          APP_URL: http://localhost # Ensure no reference to dashboard
