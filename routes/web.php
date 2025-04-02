@@ -89,4 +89,12 @@ Route::get('/view_admin', function () {
     return view('view_admin');
 })->name('view_admin');
 
+Route::get('/home', function () {
+    return view('home');
+})->name('home');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
 require __DIR__.'/auth.php';
